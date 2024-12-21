@@ -1,0 +1,77 @@
+h1 {
+  font-size: 3.1rem; /*CONVERTED from 49.6px*/
+  font-family: "Courier New", Courier, monospace;
+  color: darkgreen;
+  background-color: darkgrey;
+  text-align: center;
+  border: 0.55rem solid black;
+  margin: auto;
+  width: 18rem;
+  box-shadow: 0.4rem 0.4rem darkolivegreen; /*CONVERTED from 8px*/
+  text-shadow: 0.25rem 0.25rem black; /*CONVERTEDfrom 4px*/
+  border-radius: 1.8rem; /*CONVERTED from 28.8px*/
+}
+
+li :hover {
+  color: black;
+}
+
+a {
+  font-size: 1.2rem;
+  color: darkcyan;
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  gap: 1rem;
+  padding: 0rem;
+}
+
+img {
+  width: 25%;
+  display: block;
+  margin: auto;
+  border: 0.5rem solid black;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2rem;
+  background-color: darkgray;
+  display: inline;
+  border: 0.25rem solid black;
+  margin-left: 0.75rem;
+}
+
+p {
+  padding: 0.8rem;
+  font-size: 1.25rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+h3 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: darkgray;
+  display: inline;
+  margin-left: 0.75rem;
+  border: 0.25rem solid black;
+}
+
+body {
+  background-color: antiquewhite;
+  margin: 0rem;
+}
+
+#wrapper {
+  width: 95%;
+  border: 1rem solid black;
+  margin: auto;
+  padding: 1.5rem;
+}

@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 2;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2rem solid darkcyan;
+  margin: 0rem;
+  background-color: darkcyan;
+  /* border: 0.5rem solid darkcyan; */
+}
+
+#wrapper {
+  width: 95%;
+  background-color: darkgrey;
+  border: 1.5rem solid black; /*CONVERTED from 24px*/
+  padding: 1.5rem; /*CONVERTED from 24px*/
+  margin: auto;
+}
+
+h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 2.5rem; /*CONVERTED from 40px*/
+  font-weight: normal;
+  color: antiquewhite;
+  background-color: darkcyan;
+  width: 18rem; /*CONVERTED from 288px*/
+  padding: 0.5%;
+  border: 0.25rem solid black;
+  margin: auto;
+  box-shadow: 0.313rem 0.313rem black;
+  border-radius: 1rem;
+  text-shadow: 0.313rem 0.313rem black;
+}
+
+p {
+  color: black;
+  font-size: 1.1rem; /*CONVERTED from 17.6px*/
+}
+
+h2 {
+  font-size: 2rem; /*CONVERTED from 32px*/
+  font-family: "Kalnia", serif;
+  text-shadow: 0.313rem 0.313rem black; /*CONVERTED from 5.008px*/
+  color: antiquewhite;
+  padding: 0.313rem; /*CONVERTED from 5.008px*/
+  margin: auto;
+  background-color: darkcyan;
+  border: 0.25rem solid black; /*CONVERTED from 4px*/
+  border-radius: 1rem; /*CONVERTED from 16px*/
+}
+
+h3 {
+  font-size: 1.5rem; /*CONVERTED from 24*/
+  font-family: "Kalnia", serif;
+  color: antiquewhite;
+  text-shadow: 0.313rem 0.313rem black; /*CONVERTED from 5.008px*/
+  padding: 0.313rem; /*CONVERTED from 5.008px*/
+  margin: auto;
+  background-color: darkcyan;
+  border: 0.25rem solid black; /*CONVERTED from 4px*/
+  border-radius: 1rem; /*CONVERTED from 16px*/
+}
+
+a,
+li :hover {
+  color: black;
+}
+
+/*Flex Box container used to align and row unordered list*/
+
+ul {
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+  align-items: center;
+  gap: 1rem; /*CONVERTED from 16px*/
+  /* flex-wrap: wrap; */
+  flex-flow: row wrap;
+  height: 5rem; /*converted from 80px*/
+  padding-left: 0rem;
+  margin-right: 1rem; /*CONVERTED from 16px*/
+  list-style: none;
+}
+
+a {
+  color: darkgreen;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  background-color: white;
+  border: 0.25rem solid black; /*CONVERTED from 4px*/
+}
+
+strong,
+em {
+  color: darkgreen;
+}
+
+/* Forms styles */
+
+form {
+  border: 0.125rem solid black;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background-color: antiquewhite;
+}
+
+form > div {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  border: none;
+}
+
+input[type="checkbox"] {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  cursor: pointer;
+}
+
+#form-check > label {
+  display: inline-block;
+}
+
+input[type="number"] {
+  width: 12%;
+}
+
+textarea {
+  font-family: inherit;
+}
+
+form > button {
+  background-color: antiquewhite;
+  color: darkcyan;
+  border: none;
+  padding: 0.4rem 1rem;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+}
+
+input:hover {
+  background-color: darkcyan;
+}
