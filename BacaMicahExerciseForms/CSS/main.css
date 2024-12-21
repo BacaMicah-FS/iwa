@@ -149,6 +149,7 @@ input[type="checkbox"] {
 input[type="number"] {
   width: 12%;
 }
+/* Text area inherited */
 
 textarea {
   font-family: inherit;
