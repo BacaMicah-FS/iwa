@@ -29,7 +29,7 @@ h2 {
   margin-left: 0.75rem;
 }
 
-/*Changed "CSS" heading to h3 so that it could fit inside border equally as h2 heading because of less text*/
+/*Changed "CSS" heading to h3 so it could fit inside border equally as h2 heading because of less text*/
 
 h3 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -43,15 +43,15 @@ h3 {
   padding-left: 1rem;
   margin-left: 0.75rem;
 }
-h4 {
+/* h4 {
   color: black;
-  display: inline-block;
-  /* Used Display:inline-block to shorten container because cursor pointer was still activating when cursor was hovering over the container to the right */
-  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block; */
+/* Used Display:inline-block to shorten container because cursor pointer was still activating when cursor was hovering over the container to the right */
+/* font-family: Arial, Helvetica, sans-serif;
   font-size: 1.3rem;
-  padding: 1rem;
-  text-decoration: underline;
-}
+  padding: 1rem; */
+/* text-decoration: underline;
+} */
 
 img {
   display: block;
