@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="IWA Overview" />
+    <!-- External Style Sheet -->
+    <link rel="stylesheet" href="css/main.css" />
+    <title>IWA Overview</title>
+  </head>
+  <body>
+    <!-- <div id="wrapper"> -->
+    <header>
+      <form>
+        <div>
+          <label for="studentid">Student ID</label>
+          <input
+            type="email"
+            id="studentid"
+            required
+            minlength="1"
+            maxlength="20"
+          />
+        </div>
+        <div>
+          <label for="password">Password</label>
+          <input type="password" id="password" required minlength="1" />
+        </div>
+        <div id="form-check">
+          <input type="checkbox" name="stay" id="stay" />
+          <label for="stay">Stay logged in</label>
+        </div>
+        <div>
+          <button type="submit">Login</button>
+        </div>
+      </form>
+      <h1>IWA</h1>
+      <img
+        src="images/png-clipart-full-sail-university-logo-college-campus-sail-design-text-orange.png"
+        alt="Full Sail Logo"
+        width="250"
+      />
+      <!-- Reduced image size width to 250 from original -->
+
+      <nav>
+        <ul>
+          <!-- Used ID selectors to change individual anchor elements to different colors -->
+          <li><a id="ulchange1" href="#html">HTML</a></li>
+          <li><a id="ulchange2" href="#css">CSS</a></li>
+          <li><a id="ulchange3" href="#forms">FORMS</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2 id="html">HTML</h2>
+
+        <p>
+          <strong style="color: gold"
+            ><!-- Used Inline Styling to change each strong element's color to be different  -->HTML</strong
+          >
+          is the technology that defines the content and structure of any
+          website. Written properly, it should also define the semantics
+          (meaning) of the content in a machine-readable way, which is vital for
+          accessibility, search engine optimization, and making use of the
+          built-in features browsers provide for content to work optimally. This
+          module covers the basics of the language, before looking at key areas
+          such as document structure, links, lists, images, forms, and more.
+          Prerequisites Before starting this module, you don't need any previous
+          HTML knowledge, but you should have at least basic familiarity with
+          using computers and using the web passively (i.e., just looking at it
+          and consuming content). You should have a basic work environment set
+          up (as detailed in Installing basic software), and understand how to
+          create and manage files (as detailed in Dealing with files). Both are
+          parts of our Getting started with the web complete beginner's module.
+          <a
+            id="anchorid1"
+            href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><strong><em>Learn HTML</em></strong></a
+          >
+        </p>
+      </section>
+      <section>
+        <h3 id="css">CSS</h3>
+
+        <p>
+          <strong style="color: cadetblue"
+            ><!-- Used Inline Styling to change to different color than anchor element's color in CSS  -->CSS</strong
+          >
+          (Cascading Style Sheets) is used to style and layout web pages — for
+          example, to alter the font, color, size, and spacing of your content,
+          split it into multiple columns, or add animations and other decorative
+          features. This module provides all the CSS fundamentals you'll need
+          for now, including syntax, features, and techniques. Prerequisites
+          Before starting this module, you should have a basic work environment
+          set up (as detailed in Installing basic software), and understand how
+          to create and manage files (as detailed in Dealing with files). You
+          should also be familiar with HTML (work through our Structuring
+          content with HTML module if not). CSS allows you to create
+          great-looking web pages, but how does it work under the hood? This
+          article explains what CSS, what the basic syntax looks like, and how
+          your browser applies CSS to HTML to style it.
+          <a
+            id="anchorid2"
+            href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><strong id="strongid2"><em>Learn CSS</em></strong></a
+          >
+        </p>
+      </section>
+      <section>
+        <h2 id="forms">Forms</h2>
+
+        <p>
+          <strong style="color: crimson"
+            ><!-- Used Inline Styling to change to different color than anchor element's color in CSS  -->Form</strong
+          >
+          element formally defines a form and attributes that determine the
+          form's behavior. Each time you want to create an HTML form, you must
+          start it by using this element, nesting all the contents inside. Many
+          assistive technologies and browser plugins can discover form elements
+          and implement special hooks to make them easier to use. It's always
+          possible to use a form control outside of a form element. If you do
+          so, by default that control has nothing to do with any form unless you
+          associate it with a form using its form attribute. This was introduced
+          to let you explicitly bind a control with a form even if it is not
+          nested inside it. Let's move forward and cover the structural elements
+          you'll find nested in a form.
+          <a
+            id="anchorid3"
+            href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Styling_web_forms"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><strong><em>Learn Forms Styling</em></strong></a
+          >
+        </p>
+      </section>
+      <h4>Contact us</h4>
+      <!-- Used id selector to put border around contact form only instead of login form-->
+      <section id="contact-border">
+        <form>
+          <div>
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              minlength="1"
+              maxlength="20"
+            />
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              cols="30"
+              rows="10"
+              required
+              minlength="1"
+            ></textarea>
+          </div>
+          <div id="form-check2">
+            <input type="checkbox" name="signup" id="signup" />
+            <label for="signup">Request course information</label>
+          </div>
+          <div>
+            <button id="button2" type="submit">Send</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>
+        <a
+          href="http://www.fullsail.edu"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><strong>Full Sail University</strong></a
+        >
+      </p>
+    </footer>
+    <!-- </div> -->
+  </body>
+</html>
